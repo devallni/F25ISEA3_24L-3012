@@ -89,10 +89,8 @@ int main() {
 
     char currentPlayer = 'X';
     bool gameOver = false;
-
-    cout << "======================================\n";
-    cout << "        TIC-TAC-TOE GAME (2P)         \n";
-    cout << "======================================\n";
+    
+    cout << "        TIC-TAC-TOE GAME         \n";
     cout << "Player 1: X     Player 2: O\n\n";
 
     displayBoard(board);
